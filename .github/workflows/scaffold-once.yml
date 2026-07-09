@@ -1,0 +1,31 @@
+name: One-time scaffold of all 50 sites
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  scaffold:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Scaffold all sites from sites.config.json
+        run: node scripts/scaffold-sites.mjs
+
+      - name: Commit generated sites
+        run: |
+          git config user.name "setup-bot"
+          git config user.email "setup-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "Scaffold all 50 sites (Astro projects + branding assets)"
+            git push
+          fi
