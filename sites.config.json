@@ -1,0 +1,804 @@
+{
+  "sites": [
+    {
+      "slug": "zodiac-decoded",
+      "siteName": "Zodiac Decoded",
+      "domain": "zodiac-decoded.eu.org",
+      "hostingType": "eu.org (manual application required)",
+      "niche": "astrology",
+      "tagline": "What your zodiac sign really says about you",
+      "seedKeywords": [
+        "zodiac sign compatibility",
+        "what your rising sign means",
+        "moon sign vs sun sign explained"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "relationship-clarity",
+      "siteName": "Relationship Clarity",
+      "domain": "relationship-clarity.eu.org",
+      "hostingType": "eu.org (manual application required)",
+      "niche": "relationship-advice",
+      "tagline": "Straight talk on love, dating, and relationships",
+      "seedKeywords": [
+        "signs of a healthy relationship",
+        "how to communicate better with your partner",
+        "attachment styles explained"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "personality-lab",
+      "siteName": "Personality Lab",
+      "domain": "personality-lab.eu.org",
+      "hostingType": "eu.org (manual application required)",
+      "niche": "personality-traits",
+      "tagline": "Understand yourself and the people around you",
+      "seedKeywords": [
+        "MBTI personality types explained",
+        "signs of an introvert vs extrovert",
+        "how personality affects relationships"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "modern-parenting-notes",
+      "siteName": "Modern Parenting Notes",
+      "domain": "modern-parenting-notes.eu.org",
+      "hostingType": "eu.org (manual application required)",
+      "niche": "parenting",
+      "tagline": "Practical parenting advice for real families",
+      "seedKeywords": [
+        "toddler tantrums how to handle",
+        "positive discipline techniques",
+        "screen time guidelines by age"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "dream-meaning-guide",
+      "siteName": "Dream Meaning Guide",
+      "domain": "dream-meaning-guide.eu.org",
+      "hostingType": "eu.org (manual application required)",
+      "niche": "dream-interpretation",
+      "tagline": "What your dreams might be telling you",
+      "seedKeywords": [
+        "common dream meanings explained",
+        "why you keep having the same dream",
+        "recurring nightmare meaning"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "self-growth-daily",
+      "siteName": "Self Growth Daily",
+      "domain": "self-growth-daily.eu.org",
+      "hostingType": "eu.org (manual application required)",
+      "niche": "self-improvement",
+      "tagline": "Small, practical steps toward a better you",
+      "seedKeywords": [
+        "how to build better habits",
+        "signs of low self esteem",
+        "how to stop procrastinating"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "family-dynamics-today",
+      "siteName": "Family Dynamics Today",
+      "domain": "family-dynamics-today.eu.org",
+      "hostingType": "eu.org (manual application required)",
+      "niche": "family-relationships",
+      "tagline": "Making sense of family relationships",
+      "seedKeywords": [
+        "signs of a toxic family member",
+        "how to set boundaries with family",
+        "sibling rivalry as adults"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "love-language-lab",
+      "siteName": "Love Language Lab",
+      "domain": "love-language-lab.eu.org",
+      "hostingType": "eu.org (manual application required)",
+      "niche": "relationship-advice",
+      "tagline": "Understand how you and your partner give and receive love",
+      "seedKeywords": [
+        "5 love languages explained",
+        "how to figure out your partners love language",
+        "love language quiz alternatives"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "numerology-notes",
+      "siteName": "Numerology Notes",
+      "domain": "numerology-notes.eu.org",
+      "hostingType": "eu.org (manual application required)",
+      "niche": "numerology",
+      "tagline": "What your numbers say about your life path",
+      "seedKeywords": [
+        "life path number meaning",
+        "angel numbers explained",
+        "numerology compatibility basics"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "tarot-for-beginners",
+      "siteName": "Tarot For Beginners",
+      "domain": "tarot-for-beginners.eu.org",
+      "hostingType": "eu.org (manual application required)",
+      "niche": "tarot",
+      "tagline": "Learning tarot without the mysticism overload",
+      "seedKeywords": [
+        "tarot card meanings for beginners",
+        "how to do a 3 card tarot reading",
+        "major arcana explained simply"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "mindful-moments-daily",
+      "siteName": "Mindful Moments Daily",
+      "domain": "mindful-moments-daily.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "mindfulness",
+      "tagline": "Simple mindfulness for busy people",
+      "seedKeywords": [
+        "how to start meditating as a beginner",
+        "breathing exercises for anxiety",
+        "mindfulness habits for daily life"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "sleep-better-guide",
+      "siteName": "Sleep Better Guide",
+      "domain": "sleep-better-guide.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "sleep-wellness",
+      "tagline": "Practical tips for actually sleeping better",
+      "seedKeywords": [
+        "why you wake up at 3am every night",
+        "how to fix your sleep schedule",
+        "sleep hygiene tips that work"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "declutter-and-thrive",
+      "siteName": "Declutter and Thrive",
+      "domain": "declutter-and-thrive.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "home-organization",
+      "tagline": "Simple systems for a calmer home",
+      "seedKeywords": [
+        "how to declutter when overwhelmed",
+        "minimalist home organization tips",
+        "decluttering checklist by room"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "productivity-made-simple",
+      "siteName": "Productivity Made Simple",
+      "domain": "productivity-made-simple.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "productivity",
+      "tagline": "Practical productivity for real life, not hustle culture",
+      "seedKeywords": [
+        "how to stop procrastinating today",
+        "time blocking for beginners",
+        "best productivity methods compared"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "career-clarity-hub",
+      "siteName": "Career Clarity Hub",
+      "domain": "career-clarity-hub.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "career-advice",
+      "tagline": "Practical career advice for people who feel stuck",
+      "seedKeywords": [
+        "signs you should quit your job",
+        "how to answer why should we hire you",
+        "how to ask for a raise"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "budget-basics-today",
+      "siteName": "Budget Basics Today",
+      "domain": "budget-basics-today.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "budgeting",
+      "tagline": "Plain-language budgeting for beginners",
+      "seedKeywords": [
+        "50 30 20 budget rule explained",
+        "how to start budgeting with no savings",
+        "simple budgeting apps compared"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "pet-parent-guide",
+      "siteName": "Pet Parent Guide",
+      "domain": "pet-parent-guide.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "pet-care",
+      "tagline": "Practical advice for first-time pet owners",
+      "seedKeywords": [
+        "signs your dog is stressed",
+        "new puppy checklist",
+        "cat behavior explained"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "beginner-gardener",
+      "siteName": "Beginner Gardener",
+      "domain": "beginner-gardener.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "gardening",
+      "tagline": "Gardening advice that actually works for beginners",
+      "seedKeywords": [
+        "easiest vegetables to grow for beginners",
+        "how to start a garden with no experience",
+        "houseplant care for beginners"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "everyday-fitness-motivation",
+      "siteName": "Everyday Fitness Motivation",
+      "domain": "everyday-fitness-motivation.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "fitness-motivation",
+      "tagline": "Realistic fitness advice for busy people",
+      "seedKeywords": [
+        "how to stay motivated to exercise",
+        "beginner workout routine at home",
+        "why you keep quitting the gym"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "mental-wellness-notes",
+      "siteName": "Mental Wellness Notes",
+      "domain": "mental-wellness-notes.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "mental-wellness",
+      "tagline": "Practical, non-clinical mental wellness tips",
+      "seedKeywords": [
+        "how to cope with stress day to day",
+        "signs of burnout and what to do",
+        "simple self care ideas that work"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "friendship-files",
+      "siteName": "Friendship Files",
+      "domain": "friendship-files.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "friendship-advice",
+      "tagline": "Making and keeping real friendships as an adult",
+      "seedKeywords": [
+        "how to make friends as an adult",
+        "signs of a one sided friendship",
+        "how to end a friendship kindly"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "marriage-notes",
+      "siteName": "Marriage Notes",
+      "domain": "marriage-notes.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "marriage-advice",
+      "tagline": "Practical advice for a stronger marriage",
+      "seedKeywords": [
+        "signs of a healthy marriage",
+        "how to fix communication in marriage",
+        "marriage advice for the first year"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "breakup-recovery-guide",
+      "siteName": "Breakup Recovery Guide",
+      "domain": "breakup-recovery-guide.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "breakup-recovery",
+      "tagline": "Getting through a breakup and moving forward",
+      "seedKeywords": [
+        "how to get over a breakup faster",
+        "signs you are not over your ex",
+        "healthy ways to cope after a breakup"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "introvert-life",
+      "siteName": "Introvert Life",
+      "domain": "introvert-life.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "introvert-lifestyle",
+      "tagline": "Understanding and embracing introvert life",
+      "seedKeywords": [
+        "signs you are an introvert not shy",
+        "how introverts recharge",
+        "introvert friendly careers"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "empath-notes",
+      "siteName": "Empath Notes",
+      "domain": "empath-notes.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "empath-traits",
+      "tagline": "Understanding highly sensitive people and empaths",
+      "seedKeywords": [
+        "signs you are an empath",
+        "how empaths protect their energy",
+        "empath vs highly sensitive person differences"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "manifestation-basics",
+      "siteName": "Manifestation Basics",
+      "domain": "manifestation-basics.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "manifestation",
+      "tagline": "Practical takes on manifestation and mindset",
+      "seedKeywords": [
+        "how manifestation actually works",
+        "369 method explained",
+        "manifestation journaling prompts"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "crystal-basics-guide",
+      "siteName": "Crystal Basics Guide",
+      "domain": "crystal-basics-guide.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "crystal-healing",
+      "tagline": "A beginner's guide to crystals",
+      "seedKeywords": [
+        "crystals for beginners explained",
+        "how to cleanse crystals",
+        "crystal meanings by color"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "gift-guide-by-sign",
+      "siteName": "Gift Guide By Sign",
+      "domain": "gift-guide-by-sign.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "astrology",
+      "tagline": "Gift ideas matched to zodiac signs and personality",
+      "seedKeywords": [
+        "gift ideas by zodiac sign",
+        "best gifts for introverts",
+        "thoughtful gift ideas by personality type"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "wedding-planning-notes",
+      "siteName": "Wedding Planning Notes",
+      "domain": "wedding-planning-notes.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "wedding-planning",
+      "tagline": "Practical wedding planning without the overwhelm",
+      "seedKeywords": [
+        "wedding planning checklist timeline",
+        "budget wedding ideas",
+        "wedding planning tips for brides"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "new-parent-survival",
+      "siteName": "New Parent Survival",
+      "domain": "new-parent-survival.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "parenting",
+      "tagline": "Honest survival tips for new parents",
+      "seedKeywords": [
+        "newborn sleep schedule tips",
+        "postpartum recovery tips",
+        "first time parent checklist"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "teen-parenting-notes",
+      "siteName": "Teen Parenting Notes",
+      "domain": "teen-parenting-notes.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "parenting",
+      "tagline": "Navigating the teenage years with your kid",
+      "seedKeywords": [
+        "how to talk to your teenager",
+        "signs your teen needs support",
+        "setting boundaries with teenagers"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "golden-years-guide",
+      "siteName": "Golden Years Guide",
+      "domain": "golden-years-guide.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "elder-care",
+      "tagline": "Practical guidance for caring for aging parents",
+      "seedKeywords": [
+        "signs your aging parent needs help",
+        "how to talk to elderly parents about care",
+        "caregiver burnout signs"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "minimalist-living-today",
+      "siteName": "Minimalist Living Today",
+      "domain": "minimalist-living-today.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "minimalism",
+      "tagline": "Simple living for a less cluttered life",
+      "seedKeywords": [
+        "how to start minimalism as a beginner",
+        "minimalist wardrobe basics",
+        "benefits of a minimalist lifestyle"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "budget-decor-ideas",
+      "siteName": "Budget Decor Ideas",
+      "domain": "budget-decor-ideas.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "home-decor",
+      "tagline": "Stylish home decor that won't break the bank",
+      "seedKeywords": [
+        "budget home decor ideas",
+        "how to style a small space",
+        "thrifted home decor tips"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "self-care-sunday",
+      "siteName": "Self Care Sunday",
+      "domain": "self-care-sunday.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "self-care",
+      "tagline": "Realistic self-care ideas for busy people",
+      "seedKeywords": [
+        "self care ideas that are not expensive",
+        "self care checklist for beginners",
+        "self care ideas for burnout"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "student-study-hacks",
+      "siteName": "Student Study Hacks",
+      "domain": "student-study-hacks.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "study-tips",
+      "tagline": "Study tips that actually work",
+      "seedKeywords": [
+        "how to study more effectively",
+        "best note taking methods compared",
+        "how to stop procrastinating on homework"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "language-learning-tips",
+      "siteName": "Language Learning Tips",
+      "domain": "language-learning-tips.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "language-learning",
+      "tagline": "Practical tips for learning a new language",
+      "seedKeywords": [
+        "fastest way to learn a language",
+        "best free apps to learn a language",
+        "how to stay motivated learning a language"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "mood-reads-guide",
+      "siteName": "Mood Reads Guide",
+      "domain": "mood-reads-guide.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "book-recommendations",
+      "tagline": "Book recommendations matched to your mood",
+      "seedKeywords": [
+        "books to read when feeling stuck",
+        "best books for personal growth",
+        "comfort books to read when sad"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "puppy-training-basics",
+      "siteName": "Puppy Training Basics",
+      "domain": "puppy-training-basics.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "pet-training",
+      "tagline": "Simple, positive dog training for new owners",
+      "seedKeywords": [
+        "puppy training schedule by week",
+        "how to stop puppy biting",
+        "basic dog commands to teach first"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "houseplant-care-hub",
+      "siteName": "Houseplant Care Hub",
+      "domain": "houseplant-care-hub.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "houseplant-care",
+      "tagline": "Keeping houseplants alive, the easy way",
+      "seedKeywords": [
+        "easiest houseplants for beginners",
+        "why is my plant dying signs",
+        "houseplant watering schedule guide"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "budget-travel-notes",
+      "siteName": "Budget Travel Notes",
+      "domain": "budget-travel-notes.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "budget-travel",
+      "tagline": "Practical budget travel tips for real trips",
+      "seedKeywords": [
+        "how to travel on a tight budget",
+        "budget travel planning checklist",
+        "cheap travel destinations for beginners"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "remote-work-life",
+      "siteName": "Remote Work Life",
+      "domain": "remote-work-life.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "remote-work",
+      "tagline": "Making remote work actually work for you",
+      "seedKeywords": [
+        "how to stay productive working from home",
+        "remote work routine ideas",
+        "signs of remote work burnout"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "side-hustle-ideas-real",
+      "siteName": "Side Hustle Ideas Real",
+      "domain": "side-hustle-ideas-real.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "side-hustles",
+      "tagline": "Realistic side hustle ideas, no hype",
+      "seedKeywords": [
+        "legitimate side hustle ideas from home",
+        "how much can you realistically earn from a side hustle",
+        "side hustle ideas for beginners"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "morning-routine-ideas",
+      "siteName": "Morning Routine Ideas",
+      "domain": "morning-routine-ideas.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "daily-routines",
+      "tagline": "Building a morning routine that actually sticks",
+      "seedKeywords": [
+        "simple morning routine ideas",
+        "why your morning routine isn't working",
+        "morning routine for people who hate mornings"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "stress-less-daily",
+      "siteName": "Stress Less Daily",
+      "domain": "stress-less-daily.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "stress-management",
+      "tagline": "Practical stress management for everyday life",
+      "seedKeywords": [
+        "how to manage stress at work",
+        "quick stress relief techniques",
+        "signs stress is affecting your health"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "work-life-balance-notes",
+      "siteName": "Work Life Balance Notes",
+      "domain": "work-life-balance-notes.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "work-life-balance",
+      "tagline": "Finding a work-life balance that actually works",
+      "seedKeywords": [
+        "how to set boundaries at work",
+        "signs you need better work life balance",
+        "tips for unplugging after work"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "dating-after-divorce",
+      "siteName": "Dating After Divorce",
+      "domain": "dating-after-divorce.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "dating-advice",
+      "tagline": "Honest advice on dating after divorce",
+      "seedKeywords": [
+        "how to start dating again after divorce",
+        "red flags when dating after divorce",
+        "rebuilding confidence after divorce"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "long-distance-love",
+      "siteName": "Long Distance Love",
+      "domain": "long-distance-love.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "relationship-advice",
+      "tagline": "Making long distance relationships work",
+      "seedKeywords": [
+        "how to make long distance relationships work",
+        "signs a long distance relationship wont work",
+        "long distance relationship activities"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "in-law-relationships",
+      "siteName": "In-Law Relationships",
+      "domain": "in-law-relationships.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "family-relationships",
+      "tagline": "Navigating relationships with in-laws",
+      "seedKeywords": [
+        "how to deal with difficult in laws",
+        "setting boundaries with in laws",
+        "signs of a toxic mother in law"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    },
+    {
+      "slug": "co-parenting-guide",
+      "siteName": "Co-Parenting Guide",
+      "domain": "co-parenting-guide.pages.dev",
+      "hostingType": "cloudflare-pages-free-subdomain",
+      "niche": "co-parenting",
+      "tagline": "Practical co-parenting advice after separation",
+      "seedKeywords": [
+        "co parenting communication tips",
+        "co parenting with a difficult ex",
+        "creating a co parenting schedule"
+      ],
+      "affiliateOfferName": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+      "affiliateLink": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+      "monthlyAdBudgetUsd": 0
+    }
+  ]
+}
