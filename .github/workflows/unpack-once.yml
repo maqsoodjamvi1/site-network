@@ -6,21 +6,26 @@ on:
 
 jobs:
   unpack:
-    if: ${{ hashFiles('site-network-branded.zip') != '' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
 
-      - name: Unzip and flatten to repo root
+      - name: Unzip and flatten to repo root (no-op if zip already gone)
         run: |
+          if [ ! -f site-network-branded.zip ]; then
+            echo "No zip found, nothing to unpack, skipping."
+            exit 0
+          fi
           unzip -o site-network-branded.zip -d _unpacked
           shopt -s dotglob
           mv _unpacked/site-network/* .
           rm -rf _unpacked site-network-branded.zip .github/workflows/unpack-once.yml
+          echo "UNPACKED=1" >> "$GITHUB_ENV"
 
       - name: Commit unpacked files
+        if: env.UNPACKED == '1'
         run: |
           git config user.name "setup-bot"
           git config user.email "setup-bot@users.noreply.github.com"
