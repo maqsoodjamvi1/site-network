@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import EmailSignup from '../components/EmailSignup.astro';
+import siteConfig from '../../site.config.json';
+
+const allArticles = await getCollection('articles', ({ data }) => !data.draft);
+const sorted = allArticles.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout title="Home" description={siteConfig.tagline}>
+  <h1>{siteConfig.tagline}</h1>
+  <EmailSignup />
+  <ul class="article-list">
+    {sorted.map((article) => (
+      <ArticleCard slug={article.slug} title={article.data.title} description={article.data.description} />
+    ))}
+  </ul>
+  {sorted.length === 0 && <p>No articles yet — run the content generator to populate this site.</p>}
+</BaseLayout>

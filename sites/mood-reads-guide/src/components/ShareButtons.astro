@@ -1,0 +1,27 @@
+---
+import siteConfig from '../../site.config.json';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const { social } = siteConfig;
+
+const pageUrl = Astro.url.href;
+const imageUrl = new URL('/og-image.png', Astro.site || Astro.url.origin).href;
+
+const pinterestHref = `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(pageUrl)}&media=${encodeURIComponent(imageUrl)}&description=${encodeURIComponent(title)}`;
+const twitterHref = `https://twitter.com/intent/tweet?url=${encodeURIComponent(pageUrl)}&text=${encodeURIComponent(title)}`;
+const facebookHref = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pageUrl)}`;
+---
+
+{social?.shareButtonsEnabled && (
+  <div class="share-buttons">
+    <span class="share-label">Share this:</span>
+    <a href={pinterestHref} target="_blank" rel="noopener" aria-label="Pin on Pinterest">Pinterest</a>
+    <a href={twitterHref} target="_blank" rel="noopener" aria-label="Share on X/Twitter">X / Twitter</a>
+    <a href={facebookHref} target="_blank" rel="noopener" aria-label="Share on Facebook">Facebook</a>
+  </div>
+)}

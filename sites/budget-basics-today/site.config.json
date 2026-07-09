@@ -1,0 +1,73 @@
+{
+  "siteName": "Budget Basics Today",
+  "domain": "budget-basics-today.pages.dev",
+  "niche": "budgeting",
+  "tagline": "Plain-language budgeting for beginners",
+  "language": "en",
+  "theme": {
+    "primaryColor": "#1f4b99",
+    "accentColor": "#ff7a1a"
+  },
+  "affiliate": {
+    "network": "REPLACE_WITH_NETWORK_NAME",
+    "disclosureText": "This site may earn a commission when you sign up or purchase through links on this page. This does not affect the price you pay.",
+    "offers": [
+      {
+        "id": "offer-1",
+        "name": "REPLACE_WITH_APPROVED_OFFER (optional - can run on AdSense alone)",
+        "link": "REPLACE_WITH_YOUR_AFFILIATE_LINK",
+        "ctaText": "Check Your Rate — Free, No Impact to Credit Score"
+      }
+    ]
+  },
+  "ads": {
+    "adsenseClientId": "",
+    "metaPixelId": "",
+    "googleAdsConversionId": ""
+  },
+  "altAdNetworks": {
+    "ezoicSiteEnabled": false,
+    "medianetSiteId": ""
+  },
+  "social": {
+    "shareButtonsEnabled": true,
+    "pinterestUrl": "",
+    "instagramUrl": "",
+    "facebookUrl": "",
+    "twitterUrl": "",
+    "twitterHandle": ""
+  },
+  "newsletter": {
+    "enabled": false,
+    "provider": "buttondown",
+    "formAction": "",
+    "formFieldName": "email",
+    "headline": "Get new articles by email",
+    "subtext": "No spam, unsubscribe any time."
+  },
+  "digitalProduct": {
+    "enabled": false,
+    "name": "",
+    "price": "",
+    "link": "",
+    "ctaText": "Get the Guide"
+  },
+  "tipJar": {
+    "enabled": false,
+    "provider": "kofi",
+    "username": ""
+  },
+  "analytics": {
+    "gaMeasurementId": ""
+  },
+  "contentGeneration": {
+    "seedKeywords": [
+      "50 30 20 budget rule explained",
+      "how to start budgeting with no savings",
+      "simple budgeting apps compared"
+    ],
+    "articlesPerRun": 1,
+    "tone": "helpful, plain-language, first-person practical advice",
+    "audience": "US adults researching this topic before making a decision"
+  }
+}

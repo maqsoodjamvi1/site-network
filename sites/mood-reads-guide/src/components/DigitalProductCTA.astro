@@ -1,0 +1,12 @@
+---
+import siteConfig from '../../site.config.json';
+
+const { digitalProduct } = siteConfig;
+---
+
+{digitalProduct?.enabled && digitalProduct.link && (
+  <div class="cta-box">
+    <p><strong>{digitalProduct.name}{digitalProduct.price ? ` — ${digitalProduct.price}` : ''}</strong></p>
+    <a class="btn" href={digitalProduct.link} rel="noopener" target="_blank">{digitalProduct.ctaText}</a>
+  </div>
+)}

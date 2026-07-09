@@ -1,0 +1,18 @@
+---
+import siteConfig from '../../site.config.json';
+
+interface Props {
+  offerId?: string;
+}
+
+const { offerId } = Astro.props;
+const offer = siteConfig.affiliate.offers.find((o) => o.id === offerId) || siteConfig.affiliate.offers[0];
+---
+
+{offer && (
+  <div class="cta-box">
+    <p><strong>{offer.name}</strong></p>
+    <a class="btn" href={offer.link} rel="sponsored noopener" target="_blank">{offer.ctaText}</a>
+    <p class="disclosure">{siteConfig.affiliate.disclosureText}</p>
+  </div>
+)}

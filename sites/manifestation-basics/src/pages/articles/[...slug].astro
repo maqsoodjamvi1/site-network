@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AffiliateCTA from '../../components/AffiliateCTA.astro';
+import DigitalProductCTA from '../../components/DigitalProductCTA.astro';
+import EmailSignup from '../../components/EmailSignup.astro';
+import ShareButtons from '../../components/ShareButtons.astro';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles', ({ data }) => !data.draft);
+  return articles.map((article) => ({
+    params: { slug: article.slug },
+    props: { article }
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await article.render();
+---
+
+<BaseLayout title={article.data.title} description={article.data.description} type="article">
+  <article>
+    <h1>{article.data.title}</h1>
+    <AffiliateCTA offerId={article.data.affiliateOfferId} />
+    <Content />
+    <DigitalProductCTA />
+    <AffiliateCTA offerId={article.data.affiliateOfferId} />
+    <ShareButtons title={article.data.title} description={article.data.description} />
+    <EmailSignup />
+  </article>
+</BaseLayout>

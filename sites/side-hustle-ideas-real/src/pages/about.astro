@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import siteConfig from '../../site.config.json';
+---
+<BaseLayout title="About" description={`About ${siteConfig.siteName}`}>
+  <h1>About {siteConfig.siteName}</h1>
+  <p>{siteConfig.siteName} publishes independent, plain-language content about {siteConfig.niche.replace('-', ' ')} to help readers make informed decisions.</p>
+  <p><em>Replace this placeholder with real author/editorial info before launch — generic "about" pages hurt trust and conversion.</em></p>
+</BaseLayout>

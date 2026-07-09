@@ -1,0 +1,16 @@
+---
+import siteConfig from '../../site.config.json';
+
+const { newsletter } = siteConfig;
+---
+
+{newsletter?.enabled && newsletter.formAction && (
+  <div class="signup-box">
+    <strong>{newsletter.headline}</strong>
+    <p style="margin: 0.25rem 0 0;">{newsletter.subtext}</p>
+    <form action={newsletter.formAction} method="post" target="_blank">
+      <input type="email" name={newsletter.formFieldName || 'email'} placeholder="you@example.com" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+)}
