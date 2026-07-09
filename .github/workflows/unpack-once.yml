@@ -19,8 +19,7 @@ jobs:
             exit 0
           fi
           unzip -o site-network-branded.zip -d _unpacked
-          shopt -s dotglob
-          mv _unpacked/site-network/* .
+          cp -a _unpacked/site-network/. .
           rm -rf _unpacked site-network-branded.zip .github/workflows/unpack-once.yml
           echo "UNPACKED=1" >> "$GITHUB_ENV"
 
