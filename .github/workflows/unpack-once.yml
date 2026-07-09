@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      workflows: write
     steps:
       - uses: actions/checkout@v4
 
@@ -20,8 +19,9 @@ jobs:
             exit 0
           fi
           unzip -o site-network-branded.zip -d _unpacked
+          rm -rf _unpacked/site-network/.github
           cp -a _unpacked/site-network/. .
-          rm -rf _unpacked site-network-branded.zip .github/workflows/unpack-once.yml
+          rm -rf _unpacked site-network-branded.zip
           echo "UNPACKED=1" >> "$GITHUB_ENV"
 
       - name: Commit unpacked files
@@ -30,5 +30,5 @@ jobs:
           git config user.name "setup-bot"
           git config user.email "setup-bot@users.noreply.github.com"
           git add -A
-          git commit -m "Unpack site-network bundle into repo root"
+          git commit -m "Unpack site-network bundle into repo root (excluding .github - needs a token with workflow scope)"
           git push

@@ -1,0 +1,34 @@
+name: Daily content publish
+
+on:
+  schedule:
+    # 09:00 UTC every day - adjust to taste
+    - cron: '0 9 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Configure git identity
+        run: |
+          git config user.name "content-bot"
+          git config user.email "content-bot@users.noreply.github.com"
+
+      - name: Generate today's articles for every site
+        env:
+          # Free provider (recommended) - get a key with no card at https://aistudio.google.com/apikey
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Optional paid fallback - only used if GEMINI_API_KEY isn't set
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/daily-publish.mjs
