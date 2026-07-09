@@ -1,0 +1,29 @@
+name: One-time unpack of site-network bundle
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  unpack:
+    if: ${{ hashFiles('site-network-branded.zip') != '' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Unzip and flatten to repo root
+        run: |
+          unzip -o site-network-branded.zip -d _unpacked
+          shopt -s dotglob
+          mv _unpacked/site-network/* .
+          rm -rf _unpacked site-network-branded.zip .github/workflows/unpack-once.yml
+
+      - name: Commit unpacked files
+        run: |
+          git config user.name "setup-bot"
+          git config user.email "setup-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "Unpack site-network bundle into repo root"
+          git push
