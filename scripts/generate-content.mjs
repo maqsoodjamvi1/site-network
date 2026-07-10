@@ -46,7 +46,9 @@ if (!provider) {
   process.exit(1);
 }
 
-const geminiModel = process.env.GEMINI_MODEL || 'gemini-2.5-flash-lite';
+// 'latest' aliases (rather than a pinned dated model like gemini-2.5-flash-lite)
+// so this doesn't silently 404 again when Google retires a specific snapshot.
+const geminiModel = process.env.GEMINI_MODEL || 'gemini-flash-lite-latest';
 const anthropicModel = process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-5';
 
 const siteDir = path.resolve(args.site);
