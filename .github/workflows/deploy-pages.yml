@@ -1,0 +1,74 @@
+name: Deploy sites to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build each site and assemble combined output
+        run: |
+          set -e
+          mkdir -p _site/sites
+
+          SLUGS="zodiac-decoded relationship-clarity personality-lab modern-parenting-notes dream-meaning-guide self-growth-daily family-dynamics-today love-language-lab numerology-notes tarot-for-beginners mindful-moments-daily sleep-better-guide declutter-and-thrive productivity-made-simple career-clarity-hub budget-basics-today pet-parent-guide beginner-gardener mental-wellness-notes marriage-notes breakup-recovery-guide empath-notes manifestation-basics crystal-basics-guide wedding-planning-notes new-parent-survival teen-parenting-notes minimalist-living-today self-care-sunday student-study-hacks mood-reads-guide puppy-training-basics budget-travel-notes remote-work-life side-hustle-ideas-real morning-routine-ideas stress-less-daily work-life-balance-notes long-distance-love co-parenting-guide"
+
+          built=""
+          skipped=""
+
+          for slug in $SLUGS; do
+            if [ ! -d "sites/$slug" ]; then
+              echo "::warning::sites/$slug not found, skipping"
+              skipped="$skipped $slug"
+              continue
+            fi
+            echo "=== Building $slug ==="
+            ( cd "sites/$slug" && npm install --no-audit --no-fund && npm run build )
+            mkdir -p "_site/sites/$slug"
+            cp -r "sites/$slug/dist/." "_site/sites/$slug/"
+            built="$built $slug"
+          done
+
+          echo "Built:$built"
+          echo "Skipped:$skipped"
+
+          {
+            echo "<!doctype html><html><head><meta charset=\"utf-8\"><title>Site Network</title></head><body>"
+            echo "<h1>Site network</h1><ul>"
+            for slug in $built; do
+              echo "<li><a href=\"/site-network/sites/$slug/\">$slug</a></li>"
+            done
+            echo "</ul></body></html>"
+          } > _site/index.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
