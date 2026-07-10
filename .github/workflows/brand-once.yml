@@ -1,0 +1,34 @@
+name: One-time branding generation for all sites
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  brand:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
+      - name: Generate branding for every site under ./sites
+        run: node scripts/generate-branding.mjs --all
+
+      - name: Commit branding assets
+        run: |
+          git config user.name "setup-bot"
+          git config user.email "setup-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "Generate logos, favicons, and OG images for all sites"
+            git push
+          fi
