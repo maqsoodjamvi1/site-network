@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#1f4b99"/>
+  <rect x="90" y="90" width="150" height="150" rx="32" fill="#ff7a1a"/>
+  <text x="165" y="192" font-family="'Segoe UI', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" text-anchor="middle">MR</text>
+  <text x="90" y="340" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">Morning Routine Ideas</text>
+  <text x="90" y="400" font-family="'Segoe UI', Arial, sans-serif" font-size="32" fill="#dfe7f7">Building a morning routine that actually sticks</text>
+</svg>

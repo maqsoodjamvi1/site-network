@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="72" viewBox="0 0 500 72">
+  <rect x="0" y="4" width="64" height="64" rx="14" fill="#ff7a1a"/>
+  <text x="32" y="48" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">PM</text>
+  <text x="80" y="45" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="700" fill="#1f4b99">Productivity Made Simple</text>
+</svg>
