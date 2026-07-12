@@ -1,0 +1,60 @@
+name: Deploy eu.org sites to individual repos
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Configure git identity
+        run: |
+          git config --global user.name "site-network-bot"
+          git config --global user.email "actions@users.noreply.github.com"
+
+      - name: Build and push each eu.org site to its own repo
+        env:
+          PAT: ${{ secrets.CROSS_REPO_PAT }}
+        run: |
+          set -e
+
+          # The 10 sites that get their own dedicated repo + GitHub Pages site
+          # (so each can take its own eu.org custom domain later).
+          SLUGS="zodiac-decoded relationship-clarity personality-lab modern-parenting-notes dream-meaning-guide self-growth-daily family-dynamics-today love-language-lab numerology-notes tarot-for-beginners"
+
+          for slug in $SLUGS; do
+            if [ ! -d "sites/$slug" ]; then
+              echo "::warning::sites/$slug not found, skipping"
+              continue
+            fi
+
+            echo "=== Building $slug ==="
+            ( cd "sites/$slug" && npm install --no-audit --no-fund && npm run build )
+
+            echo "=== Pushing $slug to maqsoodjamvi1/$slug ==="
+            rm -rf "/tmp/push-$slug"
+            git clone --depth=1 "https://x-access-token:${PAT}@github.com/maqsoodjamvi1/$slug.git" "/tmp/push-$slug"
+
+            # Clear existing tracked content (keep .git) then copy in the fresh build
+            find "/tmp/push-$slug" -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+            cp -r "sites/$slug/dist/." "/tmp/push-$slug/"
+            touch "/tmp/push-$slug/.nojekyll"
+
+            cd "/tmp/push-$slug"
+            git add -A
+            if git diff --cached --quiet; then
+              echo "No changes for $slug"
+            else
+              git commit -m "Deploy $slug $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+              git push origin main
+            fi
+            cd -
+          done
