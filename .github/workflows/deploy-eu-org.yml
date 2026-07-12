@@ -43,4 +43,20 @@ jobs:
 
             echo "=== Pushing $slug to maqsoodjamvi1/$slug ==="
             rm -rf "/tmp/push-$slug"
-       
+            git clone --depth=1 "https://x-access-token:${PAT}@github.com/maqsoodjamvi1/$slug.git" "/tmp/push-$slug"
+
+            # Clear existing tracked content (keep .git) then copy in the fresh build
+            find "/tmp/push-$slug" -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+            cp -r "sites/$slug/dist/." "/tmp/push-$slug/"
+            touch "/tmp/push-$slug/.nojekyll"
+
+            cd "/tmp/push-$slug"
+            git add -A
+            if git diff --cached --quiet; then
+              echo "No changes for $slug"
+            else
+              git commit -m "Deploy $slug $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+              git push origin main
+            fi
+            cd -
+          done
