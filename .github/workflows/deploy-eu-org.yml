@@ -49,6 +49,7 @@ jobs:
             find "/tmp/push-$slug" -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
             cp -r "sites/$slug/dist/." "/tmp/push-$slug/"
             touch "/tmp/push-$slug/.nojekyll"
+            echo "$slug.eu.org" > "/tmp/push-$slug/CNAME"
 
             cd "/tmp/push-$slug"
             git add -A
