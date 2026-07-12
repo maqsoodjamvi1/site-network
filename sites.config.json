@@ -163,8 +163,8 @@
     {
       "slug": "mindful-moments-daily",
       "siteName": "Mindful Moments Daily",
-      "domain": "mindful-moments-daily.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "mindful-moments-daily.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "mindfulness",
       "tagline": "Simple mindfulness for busy people",
       "seedKeywords": [
@@ -179,8 +179,8 @@
     {
       "slug": "sleep-better-guide",
       "siteName": "Sleep Better Guide",
-      "domain": "sleep-better-guide.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "sleep-better-guide.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "sleep-wellness",
       "tagline": "Practical tips for actually sleeping better",
       "seedKeywords": [
@@ -195,8 +195,8 @@
     {
       "slug": "declutter-and-thrive",
       "siteName": "Declutter and Thrive",
-      "domain": "declutter-and-thrive.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "declutter-and-thrive.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "home-organization",
       "tagline": "Simple systems for a calmer home",
       "seedKeywords": [
@@ -211,8 +211,8 @@
     {
       "slug": "productivity-made-simple",
       "siteName": "Productivity Made Simple",
-      "domain": "productivity-made-simple.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "productivity-made-simple.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "productivity",
       "tagline": "Practical productivity for real life, not hustle culture",
       "seedKeywords": [
@@ -227,8 +227,8 @@
     {
       "slug": "career-clarity-hub",
       "siteName": "Career Clarity Hub",
-      "domain": "career-clarity-hub.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "career-clarity-hub.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "career-advice",
       "tagline": "Practical career advice for people who feel stuck",
       "seedKeywords": [
@@ -243,8 +243,8 @@
     {
       "slug": "budget-basics-today",
       "siteName": "Budget Basics Today",
-      "domain": "budget-basics-today.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "budget-basics-today.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "budgeting",
       "tagline": "Plain-language budgeting for beginners",
       "seedKeywords": [
@@ -259,8 +259,8 @@
     {
       "slug": "pet-parent-guide",
       "siteName": "Pet Parent Guide",
-      "domain": "pet-parent-guide.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "pet-parent-guide.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "pet-care",
       "tagline": "Practical advice for first-time pet owners",
       "seedKeywords": [
@@ -275,8 +275,8 @@
     {
       "slug": "beginner-gardener",
       "siteName": "Beginner Gardener",
-      "domain": "beginner-gardener.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "beginner-gardener.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "gardening",
       "tagline": "Gardening advice that actually works for beginners",
       "seedKeywords": [
@@ -291,8 +291,8 @@
     {
       "slug": "everyday-fitness-motivation",
       "siteName": "Everyday Fitness Motivation",
-      "domain": "everyday-fitness-motivation.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "everyday-fitness-motivation.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "fitness-motivation",
       "tagline": "Realistic fitness advice for busy people",
       "seedKeywords": [
@@ -307,8 +307,8 @@
     {
       "slug": "mental-wellness-notes",
       "siteName": "Mental Wellness Notes",
-      "domain": "mental-wellness-notes.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "mental-wellness-notes.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "mental-wellness",
       "tagline": "Practical, non-clinical mental wellness tips",
       "seedKeywords": [
@@ -323,8 +323,8 @@
     {
       "slug": "friendship-files",
       "siteName": "Friendship Files",
-      "domain": "friendship-files.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "friendship-files.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "friendship-advice",
       "tagline": "Making and keeping real friendships as an adult",
       "seedKeywords": [
@@ -339,8 +339,8 @@
     {
       "slug": "marriage-notes",
       "siteName": "Marriage Notes",
-      "domain": "marriage-notes.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "marriage-notes.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "marriage-advice",
       "tagline": "Practical advice for a stronger marriage",
       "seedKeywords": [
@@ -355,8 +355,8 @@
     {
       "slug": "breakup-recovery-guide",
       "siteName": "Breakup Recovery Guide",
-      "domain": "breakup-recovery-guide.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "breakup-recovery-guide.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "breakup-recovery",
       "tagline": "Getting through a breakup and moving forward",
       "seedKeywords": [
@@ -371,8 +371,8 @@
     {
       "slug": "introvert-life",
       "siteName": "Introvert Life",
-      "domain": "introvert-life.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "introvert-life.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "introvert-lifestyle",
       "tagline": "Understanding and embracing introvert life",
       "seedKeywords": [
@@ -387,8 +387,8 @@
     {
       "slug": "empath-notes",
       "siteName": "Empath Notes",
-      "domain": "empath-notes.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "empath-notes.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "empath-traits",
       "tagline": "Understanding highly sensitive people and empaths",
       "seedKeywords": [
@@ -403,8 +403,8 @@
     {
       "slug": "manifestation-basics",
       "siteName": "Manifestation Basics",
-      "domain": "manifestation-basics.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "manifestation-basics.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "manifestation",
       "tagline": "Practical takes on manifestation and mindset",
       "seedKeywords": [
@@ -419,8 +419,8 @@
     {
       "slug": "crystal-basics-guide",
       "siteName": "Crystal Basics Guide",
-      "domain": "crystal-basics-guide.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "crystal-basics-guide.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "crystal-healing",
       "tagline": "A beginner's guide to crystals",
       "seedKeywords": [
@@ -435,8 +435,8 @@
     {
       "slug": "gift-guide-by-sign",
       "siteName": "Gift Guide By Sign",
-      "domain": "gift-guide-by-sign.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "gift-guide-by-sign.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "astrology",
       "tagline": "Gift ideas matched to zodiac signs and personality",
       "seedKeywords": [
@@ -451,8 +451,8 @@
     {
       "slug": "wedding-planning-notes",
       "siteName": "Wedding Planning Notes",
-      "domain": "wedding-planning-notes.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "wedding-planning-notes.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "wedding-planning",
       "tagline": "Practical wedding planning without the overwhelm",
       "seedKeywords": [
@@ -467,8 +467,8 @@
     {
       "slug": "new-parent-survival",
       "siteName": "New Parent Survival",
-      "domain": "new-parent-survival.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "new-parent-survival.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "parenting",
       "tagline": "Honest survival tips for new parents",
       "seedKeywords": [
@@ -483,8 +483,8 @@
     {
       "slug": "teen-parenting-notes",
       "siteName": "Teen Parenting Notes",
-      "domain": "teen-parenting-notes.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "teen-parenting-notes.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "parenting",
       "tagline": "Navigating the teenage years with your kid",
       "seedKeywords": [
@@ -499,8 +499,8 @@
     {
       "slug": "golden-years-guide",
       "siteName": "Golden Years Guide",
-      "domain": "golden-years-guide.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "golden-years-guide.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "elder-care",
       "tagline": "Practical guidance for caring for aging parents",
       "seedKeywords": [
@@ -515,8 +515,8 @@
     {
       "slug": "minimalist-living-today",
       "siteName": "Minimalist Living Today",
-      "domain": "minimalist-living-today.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "minimalist-living-today.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "minimalism",
       "tagline": "Simple living for a less cluttered life",
       "seedKeywords": [
@@ -531,8 +531,8 @@
     {
       "slug": "budget-decor-ideas",
       "siteName": "Budget Decor Ideas",
-      "domain": "budget-decor-ideas.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "budget-decor-ideas.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "home-decor",
       "tagline": "Stylish home decor that won't break the bank",
       "seedKeywords": [
@@ -547,8 +547,8 @@
     {
       "slug": "self-care-sunday",
       "siteName": "Self Care Sunday",
-      "domain": "self-care-sunday.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "self-care-sunday.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "self-care",
       "tagline": "Realistic self-care ideas for busy people",
       "seedKeywords": [
@@ -563,8 +563,8 @@
     {
       "slug": "student-study-hacks",
       "siteName": "Student Study Hacks",
-      "domain": "student-study-hacks.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "student-study-hacks.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "study-tips",
       "tagline": "Study tips that actually work",
       "seedKeywords": [
@@ -579,8 +579,8 @@
     {
       "slug": "language-learning-tips",
       "siteName": "Language Learning Tips",
-      "domain": "language-learning-tips.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "language-learning-tips.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "language-learning",
       "tagline": "Practical tips for learning a new language",
       "seedKeywords": [
@@ -595,8 +595,8 @@
     {
       "slug": "mood-reads-guide",
       "siteName": "Mood Reads Guide",
-      "domain": "mood-reads-guide.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "mood-reads-guide.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "book-recommendations",
       "tagline": "Book recommendations matched to your mood",
       "seedKeywords": [
@@ -611,8 +611,8 @@
     {
       "slug": "puppy-training-basics",
       "siteName": "Puppy Training Basics",
-      "domain": "puppy-training-basics.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "puppy-training-basics.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "pet-training",
       "tagline": "Simple, positive dog training for new owners",
       "seedKeywords": [
@@ -627,8 +627,8 @@
     {
       "slug": "houseplant-care-hub",
       "siteName": "Houseplant Care Hub",
-      "domain": "houseplant-care-hub.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "houseplant-care-hub.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "houseplant-care",
       "tagline": "Keeping houseplants alive, the easy way",
       "seedKeywords": [
@@ -643,8 +643,8 @@
     {
       "slug": "budget-travel-notes",
       "siteName": "Budget Travel Notes",
-      "domain": "budget-travel-notes.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "budget-travel-notes.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "budget-travel",
       "tagline": "Practical budget travel tips for real trips",
       "seedKeywords": [
@@ -659,8 +659,8 @@
     {
       "slug": "remote-work-life",
       "siteName": "Remote Work Life",
-      "domain": "remote-work-life.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "remote-work-life.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "remote-work",
       "tagline": "Making remote work actually work for you",
       "seedKeywords": [
@@ -675,8 +675,8 @@
     {
       "slug": "side-hustle-ideas-real",
       "siteName": "Side Hustle Ideas Real",
-      "domain": "side-hustle-ideas-real.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "side-hustle-ideas-real.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "side-hustles",
       "tagline": "Realistic side hustle ideas, no hype",
       "seedKeywords": [
@@ -691,8 +691,8 @@
     {
       "slug": "morning-routine-ideas",
       "siteName": "Morning Routine Ideas",
-      "domain": "morning-routine-ideas.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "morning-routine-ideas.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "daily-routines",
       "tagline": "Building a morning routine that actually sticks",
       "seedKeywords": [
@@ -707,8 +707,8 @@
     {
       "slug": "stress-less-daily",
       "siteName": "Stress Less Daily",
-      "domain": "stress-less-daily.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "stress-less-daily.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "stress-management",
       "tagline": "Practical stress management for everyday life",
       "seedKeywords": [
@@ -723,8 +723,8 @@
     {
       "slug": "work-life-balance-notes",
       "siteName": "Work Life Balance Notes",
-      "domain": "work-life-balance-notes.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "work-life-balance-notes.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "work-life-balance",
       "tagline": "Finding a work-life balance that actually works",
       "seedKeywords": [
@@ -739,8 +739,8 @@
     {
       "slug": "dating-after-divorce",
       "siteName": "Dating After Divorce",
-      "domain": "dating-after-divorce.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "dating-after-divorce.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "dating-advice",
       "tagline": "Honest advice on dating after divorce",
       "seedKeywords": [
@@ -755,8 +755,8 @@
     {
       "slug": "long-distance-love",
       "siteName": "Long Distance Love",
-      "domain": "long-distance-love.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "long-distance-love.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "relationship-advice",
       "tagline": "Making long distance relationships work",
       "seedKeywords": [
@@ -771,8 +771,8 @@
     {
       "slug": "in-law-relationships",
       "siteName": "In-Law Relationships",
-      "domain": "in-law-relationships.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "in-law-relationships.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "family-relationships",
       "tagline": "Navigating relationships with in-laws",
       "seedKeywords": [
@@ -787,8 +787,8 @@
     {
       "slug": "co-parenting-guide",
       "siteName": "Co-Parenting Guide",
-      "domain": "co-parenting-guide.pages.dev",
-      "hostingType": "cloudflare-pages-free-subdomain",
+      "domain": "co-parenting-guide.eu.org",
+      "hostingType": "eu.org (manual application required)",
       "niche": "co-parenting",
       "tagline": "Practical co-parenting advice after separation",
       "seedKeywords": [
