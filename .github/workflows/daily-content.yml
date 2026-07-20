@@ -32,3 +32,20 @@ jobs:
           # Optional paid fallback - only used if GEMINI_API_KEY isn't set
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/daily-publish.mjs
+
+      - name: Trigger deploy workflows
+        # Pushes made with the default GITHUB_TOKEN above do NOT trigger other
+        # workflows' `on: push` events (GitHub's anti-loop protection), so the
+        # new content committed above would otherwise never actually get built
+        # and deployed. Explicitly dispatch the deploy workflows here instead,
+        # using a PAT (which isn't subject to that restriction).
+        env:
+          PAT: ${{ secrets.CROSS_REPO_PAT }}
+        run: |
+          set -e
+          for wf in deploy-pages.yml deploy-cloudflare.yml deploy-eu-org.yml; do
+            echo "Dispatching $wf"
+            curl -s -X POST -H "Authorization: token $PAT" -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/maqsoodjamvi1/site-network/actions/workflows/$wf/dispatches" \
+              -d '{"ref":"main"}' -w "  HTTP %{http_code}\n"
+          done
