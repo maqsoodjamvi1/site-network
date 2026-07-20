@@ -57,14 +57,7 @@ jobs:
             # file before then makes GitHub Pages 301-redirect the working
             # github.io URL to a domain that doesn't resolve yet, taking the
             # site offline for no reason.
-            ZONE_STATUS=$(curl -s -H "Authorization: Bearer $CF_DNS_TOKEN" \
-              "https://api.cloudflare.com/client/v4/zones?name=$slug.eu.org" \
-              | python3 -c "import json,sys
-try:
-    d=json.load(sys.stdin)
-    print(d['result'][0]['status'] if d.get('result') else 'none')
-except Exception:
-    print('none')")
+            ZONE_STATUS=$(curl -s -H "Authorization: Bearer $CF_DNS_TOKEN" "https://api.cloudflare.com/client/v4/zones?name=$slug.eu.org" | jq -r '.result[0].status // "none"')
             if [ "$ZONE_STATUS" = "active" ]; then
               echo "$slug.eu.org is ACTIVE - setting custom domain"
               echo "$slug.eu.org" > "/tmp/push-$slug/CNAME"
